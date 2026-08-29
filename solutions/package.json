@@ -1,0 +1,11 @@
+{
+  "name": "fullstackjs-102-solutions",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0"
+  }
+}

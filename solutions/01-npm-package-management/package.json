@@ -1,0 +1,26 @@
+{
+  "name": "fullstackjs-102-workshop",
+  "version": "1.0.0",
+  "description": "NPM & Express.js workshop solutions for FullStackJS-102",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "my-cli": "./bin/cli.js"
+  },
+  "config": {
+    "port": "3000"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
